@@ -1,0 +1,42 @@
+input{
+    width: 30%;
+    height: 5vh;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    background-color: #e9acc3;
+}
+body{
+    
+    margin: 80px;
+    width: 1000px;
+    
+}
+form {
+background-color: #a0b2a6;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+  
+}
+#btnEnviar{
+width: 10%;
+height: 5vh;
+border-radius: 20px;
+background-color: rgba(105, 105, 158, 0.774);
+}
+label{
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    
+}
+.letra-resultado{
+    
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+   height: 70vh;
+   width: 50%;
+}
