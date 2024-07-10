@@ -7,23 +7,29 @@
     <link rel="stylesheet" href="estilos.css">
     <title>Buscador de Letras</title>
 </head>
-<body>
+<body>  
     <div id="contenido"></div>
-
+</div>
 <form action="#" id="form_Buscar">
-    <label for="artista" >Ingrese el Artista</label><br>
-    <input type="text"  placeholder="artista" id="artista"><br>
-    <label for="cancion" >Ingrese la cancion</label><br>
-    <input type="text" placeholder="cancion" id="cancion"><br>
-    <br>
-    <input type="submit" name="Enviar" id="btnEnviar">
+    <div class="logo"> <img src="notamusica.avif" alt=""></div>
+    <div class="cont">
+        <div class="input-field">
+            <input type="text" id="artista" required>
+            <label for="artista" >Ingrese el artista</label>
+        </div>
+        <div class="input-field">
+            <input type="text" id="cancion" required>
+            <label for="cancion" >Ingrese la cancion</label><br>
+        </div> <a href="#" style="--color:#D535E0" class="btn btn-1"><span>Buscar</span><i></i></a>
+    </div>
+   
 </form>
 
 
-<div class="letra-resultado">
+<!-- <div class="letra-resultado">
     <h2>Resultado</h2>
     <div id="resultado"></div>
-  </div>
+  </div> -->
 
     <script src="index.js"></script>
 </body>
